@@ -1,0 +1,5 @@
+services:
+  GAZ:
+    build: .
+    restart: unless-stopped
+    command: python main.py
