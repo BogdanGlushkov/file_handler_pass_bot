@@ -1,5 +1,5 @@
 services:
-  GAZ:
+  gaz:
     build: .
     restart: unless-stopped
     command: python main.py
